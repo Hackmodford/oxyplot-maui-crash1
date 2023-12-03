@@ -30,7 +30,7 @@ public partial class MainPage : ContentPage
         // if both have opacity 1 there is no crash.
         // if plot 2 has opacity 0, there is a crash.
         plot1.Opacity = 1;
-        plot2.Opacity = 1;
+        plot2.Opacity = 0;
     }
 
     private void InitPlotView(PlotView plotView, OxyColor color, string annotationName)
